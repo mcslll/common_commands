@@ -17,3 +17,7 @@ sudo smbpasswd -a $(whoami)
 停止 Samba 服务：  
 新版本Linux：sudo systemctl stop smbd  
 旧版本Linux：sudo /etc/init.d/samba stop  
+
+vscode 报错 Please update the ‘security.allowedUNCHosts‘ setting if you want to allow this host  
+设置面板中，搜索 “security.allowedUNCHosts” 设置  
+添加树莓派的IP地址即可  
