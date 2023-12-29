@@ -10,6 +10,7 @@ sudo vi /etc/samba/smb.conf
 旧版本Linux：sudo /etc/init.d/samba restart  
 4、添加默认用户到samba  
 sudo smbpasswd -a $(whoami)  
+删除当前用户在 Samba 中的密码：sudo smbpasswd -x $(whoami)  
 输入密码确定即可  
 5、访问树莓派文件（确定Windows开启smb服务）  
 在映射网络驱动器中输入格式：\\<树莓派IP>\<用户名>（例：\\10.0.1.101\raspberry）  
