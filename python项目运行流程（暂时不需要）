@@ -10,6 +10,8 @@ source $HOME/env/project_name/bin/activate
 退出虚拟环境：deactivate  
 3、安装模块，如 algoliasearch  
 pip install --upgrade pip  
+# 安装软件依赖必须包
+pip3 install -r requirements.txt 
 pip install algoliasearch  
 4、用新的虚拟环境执行py文件  
 python ./demo.py
