@@ -1,3 +1,6 @@
+# 设置python的依赖安装镜像服务器为清华大学服务器
+pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
 0、安装 venv  
 sudo apt install python3-venv  #或  sudo apt install python3.10-venv  
 1、生成一个Python虚拟环境  
