@@ -1,4 +1,4 @@
-sudo find ./ -type f -name "*2023*" -print0 | sudo xargs -0 rm
+sudo find /home/pi/wawaji/AI_ERROR_Image/ -type f -name "*2023*" -print0 | sudo xargs -0 rm
 
 解析：
 find /path/to/directory：使用find命令在指定的目录（/path/to/directory）下搜索文件和目录。
