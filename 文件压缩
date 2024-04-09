@@ -1,6 +1,0 @@
-压缩：  
-tar -czvf <exp.tar.gz> <exp.log> 
-= 
-tar -czvf <exp.tgz> <exp.log>  
-解压缩：
-tar -xzvf <exp.tar.gz>
